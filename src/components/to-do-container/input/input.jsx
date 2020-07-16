@@ -9,7 +9,7 @@ const Input = (props) => {
         <form id="todo-form">
           <input
             type="text"
-            onChange={(e) => onHandleInput(e)}
+            onChange={onHandleInput}
             placeholder="Type..."
             value={newItem.value}
           ></input>
