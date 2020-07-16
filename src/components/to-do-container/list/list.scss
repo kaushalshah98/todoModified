@@ -1,0 +1,21 @@
+.list {
+  color: black;
+  width: 300px;
+  background-color: rgb(194, 192, 192);
+  height: 50px;
+  margin: 20px auto;
+  border-radius: 5px;
+  p {
+    padding: 10px;
+    position: relative;
+    input {
+      background-color: transparent;
+      border: 0;
+      color: black;
+      font-size: 18px;
+      :focus {
+        outline: none !important;
+      }
+    }
+  }
+}
